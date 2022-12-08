@@ -1,0 +1,100 @@
+/*New*/
+.image {
+    width: 200px;
+    height: 250px;
+}
+.games-info {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    font-family: fantasy;
+}
+.games-container {
+    width: 200px;
+    background-color: #f6f6f6;
+}
+.games-container .name {
+    font-size: 20px;
+}    
+
+.games-container .price {
+    color: darkred;
+    font-family: fantasy;
+}
+.add{ 
+    border: none;
+    background-color: #4681f4;
+    color: white;
+    border-radius: 10%;
+    font-size: 18px;
+}
+.decremeant{
+    background-color: #f55252;
+    border: none;
+    border-radius: 10px;
+}
+.increament {
+    border: none;
+    background-color: #1bbd1b;
+    border-radius: 10px;
+}
+.remove {
+    background-color: tomato;
+    color: white;
+    font-family: revert;
+    border: none;
+    border-radius: 10px;
+}
+.buttons {
+    text-align: center;
+}
+.quantity {
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Old*/
+/* .image {
+    width: 200px;
+    height: 250px;
+}
+.games-container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin: 20px;
+} */
+/* .games-container p {
+    font-family: fantasy;
+} */
+/* .mmo , .rpg , .fps {
+    text-align: center;
+} */
+/* .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */

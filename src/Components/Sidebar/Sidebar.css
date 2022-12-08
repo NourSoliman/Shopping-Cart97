@@ -1,0 +1,34 @@
+.games {
+    background-image: url("../../../public/imgs/sidebar.jfif");
+    color: white;
+}
+.side-bar {
+    height: 100vh;
+    min-width: 200px;
+    font-family: sans-serif;
+}
+.games-type {
+    margin : 0;
+    list-style: none;
+    top: 0;
+    left: 0;
+    transform: translate(0px, 60px)
+}
+.games-type li {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.games-type li a {
+    display: block;
+}
+@media (max-width:700px) {
+    .games {
+        display: none;
+    }
+}
+.search {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
