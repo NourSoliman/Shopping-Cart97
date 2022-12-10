@@ -10,7 +10,7 @@ import csgo from '../Images/csgo.png'
 const products = [
   {
     id:1, 
-    name :"wow", 
+    name :"wow",
     price :10.99,
     img  : wow,
     alt : "wow"
