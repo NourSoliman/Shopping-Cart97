@@ -1,18 +1,20 @@
 import Home from "./Components/Home/Home"
-import {BrowserRouter , Routes , Route} from 'react-router-dom'
+import {BrowserRouter , Routes , Route , HashRouter} from 'react-router-dom'
 import Games from "./Components/Games/Games"
 import Nav from "./Components/NavBar/Nav"
 import ContextProvider from "./Components/Contexts/Contexts"
 const RouteSwitch = () => {
     return (
         <ContextProvider>
-        <BrowserRouter>
+        {/* <BrowserRouter> */}
+        <HashRouter>
         <Nav />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Games" element={<Games />} />
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
+        {/* </BrowserRouter> */}
         </ContextProvider>
     )
 }

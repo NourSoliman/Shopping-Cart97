@@ -1,13 +1,15 @@
 import './info.css'
 import currencyFormat from './currency'
+import wow from '../../Images/wow.png'
 import { ShoppingUseContext } from '../Contexts/Contexts'
 const Info = ({ id, price, name, img , alt }) => {
     const { gamesQuantity, increament, decreament, removeItems } = ShoppingUseContext()
     const quantity = gamesQuantity(id);
+    console.log(img);
     return (
         <div className='games-container'>
             <div className='images'>
-                <img src={img} alt={alt} className="image"></img>
+                <img src={img} alt={alt} className="image" />
             </div>
             <div className='games-info'>
                 <span className='name'>{name}</span>

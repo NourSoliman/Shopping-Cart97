@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stack , Button } from 'react-bootstrap'
-import games from '../../data/games.json'
+// import games from '../../data/games.json'
+import games from '../../data/Games'
 import currencyFormat from '../Info/currency'
 import {ShoppingUseContext} from '../Contexts/Contexts'
 const CartItems = ({ id, quantity })=> {

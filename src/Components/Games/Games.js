@@ -1,7 +1,8 @@
 import Sidebar from "../Sidebar/Sidebar"
 import Info from "../Info/Info"
 import './Games.css'
-import games from '../../data/games.json'
+import games from '../../data/Games'
+// import games from '../../data/games.json'
 import { ShoppingUseContext } from "../Contexts/Contexts"
 const Games = () => {
     const { search } = ShoppingUseContext()

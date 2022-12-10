@@ -10,56 +10,56 @@
     "id":2,
     "name":"Albion",
     "price":10,
-    "img":"/imgs/albion.jpg",
+    "img":"/albion.png",
     "alt":"albion"
 },
 {
     "id":3,
     "name":"EverWinter",
     "price":20,
-    "img":"/imgs/everwinter",
+    "img":"/everwinter.png",
     "alt":"EverWinter"
 },
 {
     "id":4,
     "name":"Assassin's C",
     "price":40,
-    "img":"/imgs/assassin.png",
+    "img":"/assassin.png",
     "alt":"assassin'sCreed"
 },
 {
     "id":5,
     "name":"Mount&bladeII",
     "price":30,
-    "img":"/imgs/mount.png",
+    "img":"/mount.png",
     "alt":"MountAndBlade"
 },
 {
     "id":6,
     "name":"diablo",
     "price":20,
-    "img":"/imgs/diablo.png",
+    "img":"/diablo.png",
     "alt":"diablo"
 },
 {
     "id":7,
     "name":"Valorant",
     "price":5,
-    "img":"/imgs/valorant.png",
+    "img":"/valorant.png",
     "alt":"valorant"
 },
 {
     "id":8,
     "name":"Apex",
     "price":10,
-    "img":"/imgs/apex.png",
+    "img":"/apex.png",
     "alt":"apex"
 },
 {
     "id":9,
     "name":"CSGO",
     "price":25,
-    "img":"/imgs/csgo.png",
+    "img":"/csgo.png",
     "alt":"csgo"
 }
 ]
