@@ -1,5 +1,5 @@
 import './Home.css';
-import dragons1 from '../../dragons1.png'
+import Slider from '../Slider/Slider';
 function Home() {
   return (
     <div className="home">
@@ -7,9 +7,10 @@ function Home() {
         <h1>Welcome to gamers World</h1>
         <p>Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world Welcome to gamers world </p>
       </div>
-      <div className='main-picture'>
-        <img src={dragons1} alt="dragon" className="dragon"></img>
+      <div>
+        <button></button>
       </div>
+      <Slider />
     </div>
   );
 }

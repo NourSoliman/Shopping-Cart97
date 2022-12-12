@@ -10,6 +10,7 @@ import { useState } from 'react'
 const Nav = () => {
     const [toggle, setToggle] = useState(true)
     const { openCart, cartQuantity } = ShoppingUseContext()
+    const {searching} = ShoppingUseContext()
     const dropMenu = () => {
         setToggle(!toggle)
     }
@@ -17,8 +18,13 @@ const Nav = () => {
         <div className="nav">
             <div className='logo1'>
                 <img src={logo1} alt="logo" width="75px" height="75px" className='logo' />
-                <NavLink to='/' className='header'><h1 >Dragon Games</h1></NavLink>
+                <NavLink to='/' className='header'><h1 >DragonGames</h1></NavLink>
             </div>
+            <div className='search-container'>
+                <input type="text" placeholder='Search...' className='nav-search' onChange={(e)=>searching(e)}></input>
+            </div>
+                <div>
+                </div>
             <div className="links" >
                 <i className='icon' onClick={dropMenu}><FaBars size="30px" /></i>
                 {toggle ? <ul >

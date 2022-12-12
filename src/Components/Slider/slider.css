@@ -1,0 +1,33 @@
+.slide-container {
+overflow: hidden;
+max-width: 500px;
+margin: auto;
+}
+.slide-header {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    
+}
+.slides {
+    display: flex;
+    animation: scroll 40s linear infinite;
+
+}
+.image-container {
+    padding: 10px;
+    cursor: grab;
+}
+.slider-images {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-200px * 9));
+    }
+}
