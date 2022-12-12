@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart97/static/css/main.3196cb2f.css",
-    "main.js": "/Shopping-Cart97/static/js/main.5a00a661.js",
+    "main.css": "/Shopping-Cart97/static/css/main.ed76eee7.css",
+    "main.js": "/Shopping-Cart97/static/js/main.b3b50f87.js",
+    "static/media/newbackground.jpg": "/Shopping-Cart97/static/media/newbackground.a55a43125992721cc67a.jpg",
     "static/media/albion.png": "/Shopping-Cart97/static/media/albion.b3acd4c6b9bad88ef899.png",
     "static/media/logo2.png": "/Shopping-Cart97/static/media/logo2.1d05c85a0cae0cf28b03.png",
-    "static/media/dragons1.png": "/Shopping-Cart97/static/media/dragons1.289cff6aaef3103a7847.png",
     "static/media/wow.png": "/Shopping-Cart97/static/media/wow.e70e969520ba4ea40fd6.png",
     "static/media/csgo.png": "/Shopping-Cart97/static/media/csgo.9949b0c6c7007d61eedf.png",
     "static/media/everwinter.png": "/Shopping-Cart97/static/media/everwinter.d1ec4d621eab73b091ed.png",
@@ -15,11 +15,11 @@
     "static/media/apex.png": "/Shopping-Cart97/static/media/apex.e0c3976480a34bfe6273.png",
     "static/media/valorant.png": "/Shopping-Cart97/static/media/valorant.6c7fef77280fe53c22a5.png",
     "index.html": "/Shopping-Cart97/index.html",
-    "main.3196cb2f.css.map": "/Shopping-Cart97/static/css/main.3196cb2f.css.map",
-    "main.5a00a661.js.map": "/Shopping-Cart97/static/js/main.5a00a661.js.map"
+    "main.ed76eee7.css.map": "/Shopping-Cart97/static/css/main.ed76eee7.css.map",
+    "main.b3b50f87.js.map": "/Shopping-Cart97/static/js/main.b3b50f87.js.map"
   },
   "entrypoints": [
-    "static/css/main.3196cb2f.css",
-    "static/js/main.5a00a661.js"
+    "static/css/main.ed76eee7.css",
+    "static/js/main.b3b50f87.js"
   ]
 }
