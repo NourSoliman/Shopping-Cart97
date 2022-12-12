@@ -7,4 +7,5 @@ import diablo from '../../Images/diablo.png'
 import valorant from '../../Images/valorant.png'
 import apex from '../../Images/apex.png'
 import csgo from '../../Images/csgo.png'
-export default [wow , albion , everWinter , assassin , mount , diablo , valorant , apex , csgo]
+const sliderImages = [wow , albion , everWinter , assassin , mount , diablo , valorant , apex , csgo];
+export default sliderImages

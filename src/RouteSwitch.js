@@ -1,5 +1,5 @@
 import Home from "./Components/Home/Home"
-import {BrowserRouter , Routes , Route , HashRouter} from 'react-router-dom'
+import {  Routes , Route , HashRouter} from 'react-router-dom'
 import Games from "./Components/Games/Games"
 import Nav from "./Components/NavBar/Nav"
 import ContextProvider from "./Components/Contexts/Contexts"
