@@ -8,7 +8,7 @@ const Games = () => {
     const { search } = ShoppingUseContext()
     return (
         <div className='main'>
-            {<Sidebar search={search} />}
+            {<Sidebar  search={search}/>}
             <div className="container">
                 {games.filter((val) => {
                     if (search === " ") {

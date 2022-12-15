@@ -3,7 +3,7 @@ import { ShoppingUseContext } from '../Contexts/Contexts'
 import ShoppingItems from './ShoppingItems'
 import { Offcanvas , Stack   } from 'react-bootstrap'
 import currencyFormat from '../Info/currency'
-import games from '../../data/games.json'
+import games from '../../data/Games.js'
 const ShoppingCart = ({ show }) => {
     const { cartItems, closeCart } = ShoppingUseContext()
     return (

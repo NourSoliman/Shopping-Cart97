@@ -12,7 +12,6 @@
 }
 .games-container {
     width: 200px;
-    background-color: #f6f6f6;
 }
 .games-container .name {
     font-size: 20px;
@@ -29,7 +28,7 @@
     border-radius: 10%;
     font-size: 18px;
 }
-.decremeant{
+.decrement{
     background-color: #f55252;
     border: none;
     border-radius: 10px;
@@ -53,48 +52,3 @@
     font-family: cursive;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Old*/
-/* .image {
-    width: 200px;
-    height: 250px;
-}
-.games-container {
-    flex-grow: 1;
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: auto;
-    gap: 10px;
-    margin: 20px;
-} */
-/* .games-container p {
-    font-family: fantasy;
-} */
-/* .mmo , .rpg , .fps {
-    text-align: center;
-} */
-/* .buttons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-} */

@@ -34,7 +34,7 @@ const ContextProvider = ({ children }) => {
             }
         })
     }
-    const decreament = (id) => {
+    const decrement = (id) => {
         setCartItems((currentGames) => {
             if (currentGames.find(item => item.id === id) == null) {
                 return currentGames.filter(item => item.id !== id)
@@ -54,7 +54,7 @@ const ContextProvider = ({ children }) => {
         setCartItems((currentGames) => currentGames.filter((item) => item.id !== id))
     }
     return (
-        <shoppingCartContext.Provider value={{ cartItems, gamesQuantity, increament, decreament, removeItems, openCart, closeCart, cartQuantity, searching, search }}>
+        <shoppingCartContext.Provider value={{ cartItems, gamesQuantity, increament, decrement, removeItems, openCart, closeCart, cartQuantity, searching, search }}>
             {children}
             <ShoppingCart show={show} />
         </shoppingCartContext.Provider>

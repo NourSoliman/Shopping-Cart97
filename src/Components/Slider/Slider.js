@@ -10,7 +10,7 @@ const Slider = () => {
     }
     const timeOutRef = useRef(null)
     const [index, setIndex] = useState(0)
-    const delay = 2500;
+    const delay = 1900;
     useEffect(() => {
         resetTimeOut();
         timeOutRef.current = setTimeout(() =>
