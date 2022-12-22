@@ -1,28 +1,33 @@
 import React from 'react'
 import { Stack , Button } from 'react-bootstrap'
 // import games from '../../data/games.json'
-import games from '../../data/Games'
+// import games from '../../data/Games'
+// import offers from '../wowOffers/wow'
+import {NavLink} from 'react-bootstrap'
+import AllOffers from './AllOffers'
 import currencyFormat from '../Info/currency'
 import {ShoppingUseContext} from '../Contexts/Contexts'
 const CartItems = ({ id, quantity })=> {
     const {removeItems} = ShoppingUseContext()
-    const items = games.find((item) =>item.id === id);
-    if (items == null) return null;
+    // const items = games.find((item) =>item.id === id);
+    // if (items == null) return null;
+    const items = AllOffers.find((item)=> item.id === id);
+    if (items == null ) return null
     return (
-        <Stack direction='horizontal' gap={2} className="d-flex align-items-center">
+        <div className="d-flex align-items-center p-3" >
             <img src={items.img} alt={items.alt} width="100px" height="100px"></img>
-            <div className='me-auto'>
-                <div>
+            <div className='me-5'>
+                <div className='p-2'>
                     {items.name}{" "}
                     {quantity > 1 && <span className='text-muted'>x{quantity}</span>} 
                 </div>
-                <div>{currencyFormat(items.price)}</div>
+                <div className='p-1'>{currencyFormat(items.price)}</div>
                 </div>
                 <div>
                 {currencyFormat(items.price * quantity)} {` `}
                 <Button variant='outline-danger' size="sm" onClick={()=>removeItems(items.id)} >&times;</Button>
             </div>
-        </Stack>
+        </div>
     )
 }
 

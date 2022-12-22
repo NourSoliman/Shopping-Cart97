@@ -24,11 +24,28 @@ const Sidebar = () => {
             </div>
             <div>
                 <ul className='games-ul'>
-                    <li className='side-link'><span><AiOutlineSearch size="20px" color='white' onClick={()=>toggle()} /></span><input type="text" placeholder='Search...' className='sidebar-search' onChange={(e)=>searching(e)} style={{display: open? null : "none"}}></input></li>
-                    <li><DiUnitySmall size="20px"/><span  style={{display: open? null : "none" }}><NavLink to="/Games">All Games</NavLink></span></li>
-                    <li><SiYoutubegaming /><span  style={{display: open? null : "none"}}><NavLink to="/Mmorpg" className="mmo-nav">MMORPG Games</NavLink></span></li>
-                    <li><SiEpicgames /><span  style={{display: open? null : "none"}}><NavLink to="/RPG">RPG Games</NavLink></span></li>
-                    <li><MdOutlineGames size="20px"/><span  style={{display: open? null : "none"}}><NavLink to="/FPS">FPS Games</NavLink></span></li>
+                    <li className='side-link'>
+                        <span><AiOutlineSearch size="20px" color='white' onClick={()=>toggle()} /></span>
+                        <input type="text" placeholder='Search...' className='sidebar-search' onChange={(e)=>searching(e)} style={{display: open? null : "none"}}></input>
+                        </li>
+                    <li >
+                        <DiUnitySmall size="20px"  />
+                    <span  style={{display: open? null : "none" }} >
+                        <NavLink to="/Games" >All Games</NavLink></span>
+                        </li>
+                    <li><SiYoutubegaming /><span  style={{display: open? null : "none"}}>
+                        <NavLink to="/Mmorpg" className="mmo-nav">MMORPG Games</NavLink>
+                        </span>
+                        </li>
+                    <li><SiEpicgames /><span  style={{display: open? null : "none"}}>
+                        <NavLink to="/RPG">RPG Games</NavLink>
+                        </span>
+                        </li>
+                    <li><MdOutlineGames size="20px"/>
+                    <span  style={{display: open? null : "none"}}>
+                        <NavLink to="/FPS">FPS Games</NavLink>
+                        </span>
+                        </li>
                 </ul>
             </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar.js'
-import mmorpg from '../../data/mmo'
+import mmorpg from './mmo'
 import MmoGames from './MmoGames.js'
 import './Mmorpg.css'
 import { ShoppingUseContext } from '../Contexts/Contexts.js'

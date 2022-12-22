@@ -18,8 +18,8 @@ const Games = () => {
                     } else {
                         return false;
                     }
-                }).map((item) => (
-                    <div key={item.id}>
+                }).map((item , i) => (
+                    <div key={i}>
                         <Info {...item} />
                     </div>
                 ))}

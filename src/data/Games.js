@@ -16,84 +16,96 @@ const products = [
     name: "wow",
     price: 10.99,
     img: wow,
-    alt: "wow"
+    alt: "wow",
+    path:"/WOW"
   },
   {
     id: 2,
     name: `Albion`,
     price: 10,
     img: albion,
-    alt: "albion"
+    alt: "albion",
+    path:"/Albion"
   },
   {
     id: 3,
-    name: `everWinter`,
+    name: `NeverWinter`,
     price: 20,
     img: everWinter,
-    alt: `everWinter`
+    alt: `NeverWinter`,
+    path:"/Never"
   },
   {
     id: 4,
     name: `Assassin's C`,
     price: 40,
     img: assassin,
-    alt: `assassin`
+    alt: `assassin`,
+    path:"/Assassin"
   },
   {
     id: 5,
     name: `Mount&bladeII`,
     price: 30,
     img: mount,
-    alt: `mount`
+    alt: `mount`,
+    path:"/Mount"
   },
   {
     id: 6,
     name: `diablo`,
     price: 20,
     img: diablo,
-    alt: `diablo`
+    alt: `diablo`,
+    path:"/Diablo"
   },
   {
     id: 7,
     name: `Valorant`,
     price: 5,
     img: valorant,
-    alt: `valorant`
+    alt: `valorant`,
+    path:"/NewHome"
   },
   {
     id: 8,
     name: `Apex`,
     price: 10,
     img: apex,
-    alt: `Apex`
+    alt: `Apex`,
+    path:"/Apex"
   },
   {
     id: 9,
     name: `CSGO`,
     price: 25,
     img: csgo,
-    alt: `csgo`
+    alt: `csgo`,
+    path:"/Csgo"
   },
   {
     id: 10,
     name: "BlackDesert",
     price: 20,
     img: desert,
-    alt: "black desert"
+    alt: "black desert",
+    path:"/Desert"
   },
   {
     id: 11,
     name: "EldenRing",
     price: 25,
     img: elden,
-    alt: 'elden'
+    alt: 'elden',
+    path:"/Elden"
   },
   {
     id:12,
     name:"BattleField",
     price:35,
     img:battlefield,
-    alt:"battlefield"
+    alt:"battlefield",
+    path:"BattleField"
   }
 ]
 export default products

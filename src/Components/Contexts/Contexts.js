@@ -1,6 +1,7 @@
 import { createContext, useContext, useState } from "react";
+import CheckOut from "../ShoppingCart/CheckOut";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
-const shoppingCartContext = createContext({})
+const shoppingCartContext  = createContext({})
 const ContextProvider = ({ children }) => {
     const [show, setShow] = useState(false)
     const [cartItems, setCartItems] = useState([])
@@ -56,7 +57,6 @@ const ContextProvider = ({ children }) => {
     return (
         <shoppingCartContext.Provider value={{ cartItems, gamesQuantity, increament, decrement, removeItems, openCart, closeCart, cartQuantity, searching, search }}>
             {children}
-            <ShoppingCart show={show} />
         </shoppingCartContext.Provider>
     )
 }
