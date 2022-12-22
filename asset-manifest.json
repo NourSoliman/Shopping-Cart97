@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart97/static/css/main.05e82a90.css",
-    "main.js": "/Shopping-Cart97/static/js/main.ed9974f9.js",
-    "static/media/newbackground.jpg": "/Shopping-Cart97/static/media/newbackground.a55a43125992721cc67a.jpg",
+    "main.css": "/Shopping-Cart97/static/css/main.0c8e21e0.css",
+    "main.js": "/Shopping-Cart97/static/js/main.da0bb0eb.js",
+    "static/media/highqualityBG.mp4": "/Shopping-Cart97/static/media/highqualityBG.069078351f5c0b1dcfbc.mp4",
     "static/media/albion.png": "/Shopping-Cart97/static/media/albion.b3acd4c6b9bad88ef899.png",
     "static/media/logo2.png": "/Shopping-Cart97/static/media/logo2.1d05c85a0cae0cf28b03.png",
     "static/media/wow.png": "/Shopping-Cart97/static/media/wow.e70e969520ba4ea40fd6.png",
+    "static/media/first.jpg": "/Shopping-Cart97/static/media/first.9e89500d273075d4c7aa.jpg",
     "static/media/blackdesert.jpg": "/Shopping-Cart97/static/media/blackdesert.dfc0824e6d96b0e68d93.jpg",
     "static/media/csgo.png": "/Shopping-Cart97/static/media/csgo.9949b0c6c7007d61eedf.png",
     "static/media/everwinter.png": "/Shopping-Cart97/static/media/everwinter.d1ec4d621eab73b091ed.png",
     "static/media/diablo.png": "/Shopping-Cart97/static/media/diablo.fcb8642eea1de52a3c2c.png",
+    "static/media/fifth.jpg": "/Shopping-Cart97/static/media/fifth.e1e9f6a34d3a28fbdea6.jpg",
     "static/media/battlefield.jpg": "/Shopping-Cart97/static/media/battlefield.940b7bd378078096f60f.jpg",
     "static/media/assassin.png": "/Shopping-Cart97/static/media/assassin.44cba14d8e0475906b9d.png",
+    "static/media/ever1.jpg": "/Shopping-Cart97/static/media/ever1.ac265939e18bc4c6c21d.jpg",
+    "static/media/albion3.png": "/Shopping-Cart97/static/media/albion3.d4d0215df0798a18c56a.png",
+    "static/media/albion5.png": "/Shopping-Cart97/static/media/albion5.0404aa51db1a3f168cdb.png",
     "static/media/Mount.png": "/Shopping-Cart97/static/media/Mount.2724c27476195df5d3b2.png",
     "static/media/apex.png": "/Shopping-Cart97/static/media/apex.e0c3976480a34bfe6273.png",
     "static/media/valorant.png": "/Shopping-Cart97/static/media/valorant.6c7fef77280fe53c22a5.png",
+    "static/media/albion4.png": "/Shopping-Cart97/static/media/albion4.2452498686686d2f2c0e.png",
     "static/media/eldenring.jpg": "/Shopping-Cart97/static/media/eldenring.1833fd76c39586a8edde.jpg",
+    "static/media/albion1.png": "/Shopping-Cart97/static/media/albion1.bfc0258871324e3ce8c9.png",
+    "static/media/third.jfif": "/Shopping-Cart97/static/media/third.65cf0ccdf0aa540e5ca2.jfif",
+    "static/media/fourth.jfif": "/Shopping-Cart97/static/media/fourth.5efd48ee3acd94c7a80d.jfif",
+    "static/media/second.jfif": "/Shopping-Cart97/static/media/second.8a0351a55aea8625ca7b.jfif",
+    "static/media/albion2.jfif": "/Shopping-Cart97/static/media/albion2.911e30049a1f4d270198.jfif",
     "index.html": "/Shopping-Cart97/index.html",
-    "main.05e82a90.css.map": "/Shopping-Cart97/static/css/main.05e82a90.css.map",
-    "main.ed9974f9.js.map": "/Shopping-Cart97/static/js/main.ed9974f9.js.map"
+    "main.0c8e21e0.css.map": "/Shopping-Cart97/static/css/main.0c8e21e0.css.map",
+    "main.da0bb0eb.js.map": "/Shopping-Cart97/static/js/main.da0bb0eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.05e82a90.css",
-    "static/js/main.ed9974f9.js"
+    "static/css/main.0c8e21e0.css",
+    "static/js/main.da0bb0eb.js"
   ]
 }
