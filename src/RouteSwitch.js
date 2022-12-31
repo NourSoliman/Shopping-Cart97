@@ -1,4 +1,4 @@
-import Home from "./Components/Home/Home"
+// import Home from "./Components/Home/Home"
 import {  Routes , Route , HashRouter} from 'react-router-dom'
 import Games from "./Components/Games/Games"
 import Nav from "./Components/NavBar/Nav"
@@ -9,14 +9,14 @@ import Fps from "./Components/FPS/Fps"
 import WowOffers from "./Components/wowOffers/wowOffers"
 import Albion from "./Components/albionOffers/Albion"
 import CheckOut from "./Components/ShoppingCart/CheckOut"
-import ShoppingCart from './Components/ShoppingCart/ShoppingCart'
+// import ShoppingCart from './Components/ShoppingCart/ShoppingCart'
 import Never from "./Components/NeverWinter/Never"
-import Valorant from "./Components/Valorant/Valorant"
+// import Valorant from "./Components/Valorant/Valorant"
 import NewHome from './Components/NewHome/NewHome'
 const RouteSwitch = () => {
     return (
+        // <BrowserRouter>
         <ContextProvider>
-        {/* <BrowserRouter> */}
         <HashRouter>
         <Nav />
         <Routes>
@@ -32,8 +32,9 @@ const RouteSwitch = () => {
             <Route path="/Cart" element={<CheckOut />} />
         </Routes>
         </HashRouter>
-        {/* </BrowserRouter> */}
         </ContextProvider>
+        // </BrowserRouter> 
     )
 }
 export default RouteSwitch
+{/* <ContextProvider> */}

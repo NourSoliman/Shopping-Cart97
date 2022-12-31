@@ -37,19 +37,18 @@ const ContextProvider = ({ children }) => {
     }
     const decrement = (id) => {
         setCartItems((currentGames) => {
-            if (currentGames.find(item => item.id === id) == null) {
-                return currentGames.filter(item => item.id !== id)
+    if (currentGames.find(item => item.id === id).quantity === 1) {
+        return currentGames.filter(item => item.id !== id)
+    } else {
+        return currentGames.map(item => {
+            if (item.id === id) {
+                return { ...item, quantity: item.quantity - 1 }
             } else {
-                return currentGames.map(item => {
-                    if (item.id === id) {
-                        return { ...item, quantity: item.quantity - 1 }
-                    } else {
-                        return item
-                    }
-                })
+                return item
             }
         })
-
+    }
+})
     }
     const removeItems = (id) => {
         setCartItems((currentGames) => currentGames.filter((item) => item.id !== id))
